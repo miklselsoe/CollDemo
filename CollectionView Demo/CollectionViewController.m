@@ -7,6 +7,7 @@
 //
 
 #import "CollectionViewController.h"
+#import "DetailViewController.h"
 
 static NSUInteger const kColorCount = 9;
 static NSString *kCellId = @"CellId";
@@ -70,6 +71,21 @@ static NSString *kCellId = @"CellId";
     
 }
 
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+    // Transition to new view controller.
+    
+    UICollectionViewCell *cell = [self.collectionView cellForItemAtIndexPath:indexPath];
+    DetailViewController *detailViewController = [[DetailViewController alloc] initWithColor:cell.backgroundColor];
+    
+    // Transition to new view controller.
+    
+    [self presentViewController:detailViewController animated:YES completion:NULL];
+    
+}
+
+
+#pragma mark - Private Methods
 
 
 - (UICollectionViewLayout *)CV_layout {
