@@ -21,6 +21,7 @@
 		7672DFBB176AF59F00DAA3D5 /* CollectionView_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7672DFBA176AF59F00DAA3D5 /* CollectionView_DemoTests.m */; };
 		7672DFC7176AF8A300DAA3D5 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7672DFC6176AF8A300DAA3D5 /* CollectionViewController.m */; };
 		7672DFCA176B065B00DAA3D5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7672DFC9176B065B00DAA3D5 /* DetailViewController.m */; };
+		7672DFCD176B45D100DAA3D5 /* TransitionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7672DFCC176B45D100DAA3D5 /* TransitionLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		7672DFC6176AF8A300DAA3D5 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
 		7672DFC8176B065B00DAA3D5 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		7672DFC9176B065B00DAA3D5 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		7672DFCB176B45D100DAA3D5 /* TransitionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionLayout.h; sourceTree = "<group>"; };
+		7672DFCC176B45D100DAA3D5 /* TransitionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				7672DFC6176AF8A300DAA3D5 /* CollectionViewController.m */,
 				7672DFC8176B065B00DAA3D5 /* DetailViewController.h */,
 				7672DFC9176B065B00DAA3D5 /* DetailViewController.m */,
+				7672DFCB176B45D100DAA3D5 /* TransitionLayout.h */,
+				7672DFCC176B45D100DAA3D5 /* TransitionLayout.m */,
 			);
 			path = "CollectionView Demo";
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7672DFCD176B45D100DAA3D5 /* TransitionLayout.m in Sources */,
 				7672DFA6176AF59F00DAA3D5 /* AppDelegate.m in Sources */,
 				7672DFA2176AF59F00DAA3D5 /* main.m in Sources */,
 				7672DFC7176AF8A300DAA3D5 /* CollectionViewController.m in Sources */,

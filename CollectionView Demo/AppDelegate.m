@@ -19,7 +19,9 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     CollectionViewController *rootViewController = [[CollectionViewController alloc] init];
-    self.window.rootViewController = rootViewController;
+    
+    UINavigationController *navCt = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+    self.window.rootViewController = navCt;
     
     [self.window makeKeyAndVisible];
     return YES;

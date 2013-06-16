@@ -6,8 +6,10 @@
 //  Copyright (c) 2013 Mikkel Selsøe Sørensen. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 @interface CollectionViewController : UICollectionViewController
+
+- (instancetype) initWithColor: (UIColor*) startColor count:(NSUInteger)count columnCount:(NSUInteger)colCount;
 
 @end
